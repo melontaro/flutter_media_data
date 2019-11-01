@@ -15,7 +15,5 @@ void main() {
     channel.setMockMethodCallHandler(null);
   });
 
-  test('getPlatformVersion', () async {
-    expect(await FlutterVideoData.platformVersion, '42');
-  });
+
 }

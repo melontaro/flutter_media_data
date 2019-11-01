@@ -48,7 +48,7 @@ public class FlutterVideoDataPlugin implements MethodCallHandler {
             //System.out.println("=================>>>>3");
             for (int i = 0; i < videos.size(); i++) {
                 Video v = videos.get(i);
-                System.out.println("=================>>>>5" + v.getName());
+                //System.out.println("=================>>>>5" + v.getName());
 
                 ArrayList arrayList = new ArrayList();
                 arrayList.add(v.getPath());
